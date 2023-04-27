@@ -3,19 +3,17 @@
     width: 100vw;
 }
 
-
-@media sreen and (max-width: 767px) {
-    .collapse{
-        display: flex;
-        justify-content: right;
-        align-items: left;
-    }
-}
-
 .collapse{
     display: flex;
-    justify-content: left;
+    justify-content: right;
     align-items: center;
+}
+@media screen and (max-width: 991px) {
+    .collapse{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
 }
 
 .imagem-inicial{
@@ -52,14 +50,3 @@
 .mapa img{
     width: 100%;
 }
-
-
-/*.container-fluid{
-    float: left;
-}*/
-/*font-size: 0px;
-    left: -0.255948px;
-    top: 0px;
-    width: 670.512px;
-    height: 372px;
-    position: relative;*/
