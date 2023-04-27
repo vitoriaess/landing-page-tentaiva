@@ -1,17 +1,29 @@
 #navbar{
     position: fixed;
-    width: 100%;
+    width: 100vw;
+}
+
+
+@media sreen and (max-width: 767px) {
+    .collapse{
+        display: flex;
+        justify-content: right;
+        align-items: left;
+    }
 }
 
 .collapse{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
 }
 
-#imagem-inicial{
-    width: 0.5vw;
-    height: 0.5vh;
+.imagem-inicial{
+    width: 100vw;
+}
+
+.imagem-inicial img{
+    width: 100%;
 }
 
 .container{
@@ -30,6 +42,14 @@
 }
 
 .col-sm-2 img{
+    width: 100%;
+}
+
+.mapa{
+    width: 100vw;
+}
+
+.mapa img{
     width: 100%;
 }
 
