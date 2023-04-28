@@ -8,7 +8,12 @@
     justify-content: right;
     align-items: center;
 }
+
 @media screen and (max-width: 991px) {
+    .navbar.nav{
+        display: flex;
+        flex-direction: collumn;
+    }
     .collapse{
         display: flex;
         justify-content: left;
@@ -16,32 +21,52 @@
     }
 }
 
-.imagem-inicial{
+.imagem-inicial img{
     width: 100vw;
+    margin-top: 2vh;
 }
 
 .imagem-inicial img{
     width: 100%;
 }
 
-.container{
+.row{
     padding-top: 10vh;
+    padding-bottom: 5vh;
 }
 
 .col-sm-3 p{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     padding-top: 0;
 }
 
-.col-sm-2{
+.cols{
+    padding-top: 2vh;
+}
+
+.col-sm-9 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 5vh;
+    line-height: 1em;
+}
+
+.col{
     display: flex;
     justify-content: center; 
     flex-direction: column;
     align-items: center;
 }
 
-.col-sm-2 img{
-    width: 100%;
+.col img{
+    width: 250px;
+}
+
+@media screen and (max-width: 991px) {
+    .col img{
+       width: 350px; 
+    }
 }
 
 .mapa{
@@ -51,6 +76,7 @@
 .mapa img{
     width: 100%;
 }
+
 @media screen and (max-width: 991px) {
     .mapa{
         height: 100%;
