@@ -30,6 +30,7 @@
 
 .col-sm-3 p{
     font-size: 1.5em;
+    padding-top: 0;
 }
 
 .col-sm-2{
@@ -49,4 +50,12 @@
 
 .mapa img{
     width: 100%;
+}
+@media screen and (max-width: 991px) {
+    .mapa{
+        height: 100%;
+    }
+    .mapa img{
+        height: 100%
+    }
 }
